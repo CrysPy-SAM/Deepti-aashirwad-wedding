@@ -281,7 +281,7 @@ function Gate({
     className: "gate-om"
   }, "ॐ"), /*#__PURE__*/React.createElement("div", {
     className: "gate-title"
-  }, "दीप्ती ❀ आशीर्वाद"), /*#__PURE__*/React.createElement("div", {
+  }, "दीप्ति ❀ आशीर्वाद"), /*#__PURE__*/React.createElement("div", {
     className: "gate-sub"
   }, "आप सादर आमंत्रित हैं"), /*#__PURE__*/React.createElement("button", {
     className: "open-btn",
@@ -319,7 +319,7 @@ function App() {
     }
   }, "वर - वधू"), /*#__PURE__*/React.createElement("div", {
     className: "vadhu"
-  }, "आयु. इंजी. दीप्ती द्विवेदी"), /*#__PURE__*/React.createElement("div", {
+  }, "आयु. इंजी. दीप्ति द्विवेदी"), /*#__PURE__*/React.createElement("div", {
     className: "parents"
   }, "(सुपुत्री – स्मृतिशेष मालती द्विवेदी एवं श्री शिव प्रसाद द्विवेदी)"), /*#__PURE__*/React.createElement("div", {
     className: "weds"
