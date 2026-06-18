@@ -19,7 +19,7 @@ function Garland() {
     r: "68%"
   }, /*#__PURE__*/React.createElement("stop", {
     offset: "0%",
-    stopColor: "#ffe28a"
+    stopColor:"#f4a623"
   }), /*#__PURE__*/React.createElement("stop", {
     offset: "55%",
     stopColor: "#f4a623"
