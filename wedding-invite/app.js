@@ -288,17 +288,43 @@ function Gate({
     onClick: onOpen
   }, "निमंत्रण खोलें")));
 }
+
+/* ----- background music player (plays when invitation is opened) ----- */
+const SONG_URL = "https://raw.githubusercontent.com/CrysPy-SAM/Songs/main/vidssave.com%20Radhe%20krishna%20ki%20jyoti%20%F0%9F%A4%8D%F0%9F%A5%80%2048kbps.mp4";
+
+function MusicPlayer({
+  audioRef
+}) {
+  return /*#__PURE__*/React.createElement("audio", {
+    ref: audioRef,
+    src: SONG_URL,
+    loop: true,
+    playsInline: true
+  });
+}
+
 function App() {
   const [open, setOpen] = useState(false);
+  const audioRef = useRef(null);
   useEffect(() => {
     document.body.style.overflow = open ? 'auto' : 'hidden';
   }, [open]);
+  const handleOpen = () => {
+    setOpen(true);
+    const audio = audioRef.current;
+    if (audio) {
+      audio.volume = 0.55;
+      audio.play().catch(() => {});
+    }
+  };
   const venueQuery = encodeURIComponent('Saraswati Marriage Lawn, Hedgewar Marg, Mahuariya, Gabhadiya, Sultanpur, Uttar Pradesh');
-  return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(PetalField, {
+  return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(MusicPlayer, {
+    audioRef: audioRef
+  }), /*#__PURE__*/React.createElement(PetalField, {
     burst: open
   }), /*#__PURE__*/React.createElement(Gate, {
     open: open,
-    onOpen: () => setOpen(true)
+    onOpen: handleOpen
   }), /*#__PURE__*/React.createElement("div", {
     className: "stage"
   }, /*#__PURE__*/React.createElement("div", {
