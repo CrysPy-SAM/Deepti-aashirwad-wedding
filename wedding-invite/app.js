@@ -412,7 +412,7 @@ function App() {
     }
   }, "प्रेषक"), /*#__PURE__*/React.createElement("div", {
     className: "name-line"
-  }, "धर्मेन्द्र द्विवेदी"), /*#__PURE__*/React.createElement("div", null, "(प्रान्त सह प्रचार विभाग प्रमुख - स्वदेशी जागरण मंच)"), /*#__PURE__*/React.createElement("div", {
+  }, "धर्मेन्द्र द्विवेदी"), /*#__PURE__*/React.createElement("div", null, "(काशी प्रान्त सह प्रचार विभाग प्रमुख - स्वदेशी जागरण मंच)"), /*#__PURE__*/React.createElement("div", {
     style: {
       marginTop: 4
     }
