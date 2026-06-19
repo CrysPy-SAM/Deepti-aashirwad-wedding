@@ -327,7 +327,7 @@ function App() {
     className: "var"
   }, "चि. इंजी. आशीर्वाद तिवारी ", /*#__PURE__*/React.createElement("span", {
     className: "designation"
-  }, "(Sr. Data Scientist)")), /*#__PURE__*/React.createElement("div", {
+  }, "(data science manager)")), /*#__PURE__*/React.createElement("div", {
     className: "parents"
   }, "(सुपुत्र – श्रीमती आशा तिवारी एवं श्री त्रिभुवन तिवारी)")), /*#__PURE__*/React.createElement(Reveal, null, /*#__PURE__*/React.createElement(Countdown, null)), /*#__PURE__*/React.createElement(Reveal, {
     className: "flourish"
