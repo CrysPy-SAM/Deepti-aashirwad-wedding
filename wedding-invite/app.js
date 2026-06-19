@@ -290,7 +290,7 @@ function Gate({
 }
 
 /* ----- background music player (plays when invitation is opened) ----- */
-const SONG_URL = "https://raw.githubusercontent.com/CrysPy-SAM/Songs/main/vidssave.com%20Radhe%20krishna%20ki%20jyoti%20%F0%9F%A4%8D%F0%9F%A5%80%2048kbps.mp4";
+const SONG_URL = "https://raw.githubusercontent.com/CrysPy-SAM/Songs/main/vidssave.com%20Marriage%20Invitation%20Card%20_%20Marriage%20Invitation%20Video%20Kaise%20Banaye%20_%20Agarwal%20Creation%20_%207579985569%2048kbps.mp4";
 
 function MusicPlayer({
   audioRef
