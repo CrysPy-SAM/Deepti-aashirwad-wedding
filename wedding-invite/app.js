@@ -324,10 +324,14 @@ function App() {
   }, "(सुपुत्री – स्मृतिशेष मालती द्विवेदी एवं श्री शिव प्रसाद द्विवेदी)"), /*#__PURE__*/React.createElement("div", {
     className: "weds"
   }, "वेड्स"), /*#__PURE__*/React.createElement("div", {
-    className: "var"
-  }, "चि. इंजी. आशीर्वाद तिवारी ", /*#__PURE__*/React.createElement("span", {
+  className: "var"
+},
+  "चि. इंजी. आशीर्वाद तिवारी",
+  /*#__PURE__*/React.createElement("br", null),
+  /*#__PURE__*/React.createElement("span", {
     className: "designation"
-  }, "(data science manager)")), /*#__PURE__*/React.createElement("div", {
+  }, "(Data Science Manager)")
+), /*#__PURE__*/React.createElement("div", {
     className: "parents"
   }, "(सुपुत्र – श्रीमती आशा तिवारी एवं श्री त्रिभुवन तिवारी)")), /*#__PURE__*/React.createElement(Reveal, null, /*#__PURE__*/React.createElement(Countdown, null)), /*#__PURE__*/React.createElement(Reveal, {
     className: "flourish"
