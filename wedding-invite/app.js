@@ -19,13 +19,13 @@ function Garland() {
     r: "68%"
   }, /*#__PURE__*/React.createElement("stop", {
     offset: "0%",
-    stopColor:"#f4a623"
+    stopColor:"#FFD66B"
   }), /*#__PURE__*/React.createElement("stop", {
     offset: "55%",
-    stopColor: "#f4a623"
+    stopColor: "#F2A93B"
   }), /*#__PURE__*/React.createElement("stop", {
     offset: "100%",
-    stopColor: "#c46f0e"
+    stopColor: "#B8650E"
   })), /*#__PURE__*/React.createElement("radialGradient", {
     id: "gInner",
     cx: "50%",
@@ -33,13 +33,13 @@ function Garland() {
     r: "68%"
   }, /*#__PURE__*/React.createElement("stop", {
     offset: "0%",
-    stopColor: "#ffb3a4"
+    stopColor: "#FFA9A0"
   }), /*#__PURE__*/React.createElement("stop", {
     offset: "60%",
-    stopColor: "#c8313b"
+    stopColor: "#A91D3A"
   }), /*#__PURE__*/React.createElement("stop", {
     offset: "100%",
-    stopColor: "#7d1620"
+    stopColor: "#5E0E1F"
   })), /*#__PURE__*/React.createElement("g", {
     id: "flower"
   }, /*#__PURE__*/React.createElement("circle", {
@@ -50,17 +50,17 @@ function Garland() {
     fill: "url(#gInner)"
   }), /*#__PURE__*/React.createElement("circle", {
     r: "4.2",
-    fill: "#ffe9a8"
+    fill: "#FFF1C2"
   })), /*#__PURE__*/React.createElement("path", {
     id: "leaf",
     d: "M0,0 C-6,-9 -2,-20 0,-24 C2,-20 6,-9 0,0 Z",
-    fill: "#356b46"
+    fill: "#1F5A3D"
   })), /*#__PURE__*/React.createElement("line", {
     x1: "0",
     y1: "5",
     x2: "660",
     y2: "5",
-    stroke: "#8a6a35",
+    stroke: "#A87C2E",
     strokeWidth: "2"
   }), flowers.map((x, i) => {
     const deep = i % 2 === 1;
@@ -73,7 +73,7 @@ function Garland() {
       y1: "5",
       x2: x,
       y2: y2,
-      stroke: "#8a6a35",
+      stroke: "#A87C2E",
       strokeWidth: "1.3"
     }), /*#__PURE__*/React.createElement("use", {
       href: "#leaf",
@@ -223,25 +223,25 @@ function Gate({
     width: "80",
     height: "180",
     fill: "none",
-    stroke: "#e8c25e",
+    stroke: "#E8C75C",
     strokeWidth: "1.5"
   }), /*#__PURE__*/React.createElement("circle", {
     cx: "50",
     cy: "55",
     r: "20",
     fill: "none",
-    stroke: "#e8c25e",
+    stroke: "#E8C75C",
     strokeWidth: "1.2"
   }), /*#__PURE__*/React.createElement("circle", {
     cx: "50",
     cy: "55",
     r: "9",
-    fill: "#e8c25e",
+    fill: "#E8C75C",
     opacity: "0.5"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M30,130 Q50,100 70,130 L70,180 L30,180 Z",
     fill: "none",
-    stroke: "#e8c25e",
+    stroke: "#E8C75C",
     strokeWidth: "1.2"
   }))), /*#__PURE__*/React.createElement("div", {
     className: "gate-panel right"
@@ -255,25 +255,25 @@ function Gate({
     width: "80",
     height: "180",
     fill: "none",
-    stroke: "#e8c25e",
+    stroke: "#E8C75C",
     strokeWidth: "1.5"
   }), /*#__PURE__*/React.createElement("circle", {
     cx: "50",
     cy: "55",
     r: "20",
     fill: "none",
-    stroke: "#e8c25e",
+    stroke: "#E8C75C",
     strokeWidth: "1.2"
   }), /*#__PURE__*/React.createElement("circle", {
     cx: "50",
     cy: "55",
     r: "9",
-    fill: "#e8c25e",
+    fill: "#E8C75C",
     opacity: "0.5"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M30,130 Q50,100 70,130 L70,180 L30,180 Z",
     fill: "none",
-    stroke: "#e8c25e",
+    stroke: "#E8C75C",
     strokeWidth: "1.2"
   }))), /*#__PURE__*/React.createElement("div", {
     className: "gate-center"
